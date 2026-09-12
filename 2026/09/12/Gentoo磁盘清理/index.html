@@ -6,23 +6,23 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="theme-color" content="#f7f3e9" data-flatpaper-theme-color>
 
-<title>eix-sync超级同步 | GhostZero</title>
-<meta name="description" content="Xysgh.EFT大佬的加速方案第一步创建&#x2F;etc&#x2F;portage&#x2F;repos.conf文件夹然后在里面创建gentoo.conf文件把这个复制进去： 12345678910111213141516171819[DEFAULT]main-repo &#x3D; gentoo[gentoo]location &#x3D; &#x2F;var&#x2F;db&#x2F;repos&#x2F;...">
+<title>Gentoo磁盘清理 | GhostZero</title>
+<meta name="description" content="Gentoo用久了磁盘爆满清理扫描工具推荐：baobab常见原因：1. &#x2F;var 目录（空间占用大户）这是 Gentoo 系统中增长最快、最需要注意的目录，主要包含以下子目录： &#x2F;var&#x2F;db&#x2F;repos&#x2F;gentoo‌：存放 Portage 的 ebuild 仓库元数据。默认情况下约占用 ‌650 MiB‌...">
 <meta property="og:type" content="article">
-<meta property="og:title" content="eix-sync超级同步 | GhostZero">
-<meta property="og:url" content="http://example.com/2026/08/04/eix-sync%E8%B6%85%E7%BA%A7%E5%90%8C%E6%AD%A5/">
+<meta property="og:title" content="Gentoo磁盘清理 | GhostZero">
+<meta property="og:url" content="http://example.com/2026/09/12/Gentoo%E7%A3%81%E7%9B%98%E6%B8%85%E7%90%86/">
 <meta property="og:site_name" content="GhostZero">
-<meta property="og:description" content="Xysgh.EFT大佬的加速方案第一步创建&#x2F;etc&#x2F;portage&#x2F;repos.conf文件夹然后在里面创建gentoo.conf文件把这个复制进去： 12345678910111213141516171819[DEFAULT]main-repo &#x3D; gentoo[gentoo]location &#x3D; &#x2F;var&#x2F;db&#x2F;repos&#x2F;...">
+<meta property="og:description" content="Gentoo用久了磁盘爆满清理扫描工具推荐：baobab常见原因：1. &#x2F;var 目录（空间占用大户）这是 Gentoo 系统中增长最快、最需要注意的目录，主要包含以下子目录： &#x2F;var&#x2F;db&#x2F;repos&#x2F;gentoo‌：存放 Portage 的 ebuild 仓库元数据。默认情况下约占用 ‌650 MiB‌...">
 <meta property="og:locale">
-<meta property="article:published_time" content="2026-08-04T04:47:38.000Z">
-<meta property="article:modified_time" content="2026-08-04T04:52:10.285Z">
+<meta property="article:published_time" content="2026-09-12T07:02:21.000Z">
+<meta property="article:modified_time" content="2026-09-12T07:14:14.088Z">
 <meta property="article:author" content="GhostZero">
 <meta name="twitter:card" content="summary">
-<link rel="canonical" href="http://example.com/2026/08/04/eix-sync%E8%B6%85%E7%BA%A7%E5%90%8C%E6%AD%A5/">
+<link rel="canonical" href="http://example.com/2026/09/12/Gentoo%E7%A3%81%E7%9B%98%E6%B8%85%E7%90%86/">
 
 <link rel="icon" href="/images/favicon.png" type="image/png">
 
-<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"eix-sync超级同步","name":"eix-sync超级同步 | GhostZero","description":"Xysgh.EFT大佬的加速方案第一步创建&#x2F;etc&#x2F;portage&#x2F;repos.conf文件夹然后在里面创建gentoo.conf文件把这个复制进去： 12345678910111213141516171819[DEFAULT]main-repo = gentoo[gentoo]location = /var/db/repos/...","url":"http://example.com/2026/08/04/eix-sync%E8%B6%85%E7%BA%A7%E5%90%8C%E6%AD%A5/","inLanguage":"zh-CN","isPartOf":{"@type":"WebSite","name":"GhostZero","url":"http://example.com/"},"mainEntityOfPage":"http://example.com/2026/08/04/eix-sync%E8%B6%85%E7%BA%A7%E5%90%8C%E6%AD%A5/","datePublished":"2026-08-04T04:47:38.000Z","dateModified":"2026-08-04T04:52:10.285Z","author":{"@type":"Person","name":"GhostZero"},"publisher":{"@type":"Organization","name":"GhostZero"}}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Gentoo磁盘清理","name":"Gentoo磁盘清理 | GhostZero","description":"Gentoo用久了磁盘爆满清理扫描工具推荐：baobab常见原因：1. &#x2F;var 目录（空间占用大户）这是 Gentoo 系统中增长最快、最需要注意的目录，主要包含以下子目录： &#x2F;var&#x2F;db&#x2F;repos&#x2F;gentoo‌：存放 Portage 的 ebuild 仓库元数据。默认情况下约占用 ‌650 MiB‌...","url":"http://example.com/2026/09/12/Gentoo%E7%A3%81%E7%9B%98%E6%B8%85%E7%90%86/","inLanguage":"zh-CN","isPartOf":{"@type":"WebSite","name":"GhostZero","url":"http://example.com/"},"mainEntityOfPage":"http://example.com/2026/09/12/Gentoo%E7%A3%81%E7%9B%98%E6%B8%85%E7%90%86/","datePublished":"2026-09-12T07:02:21.000Z","dateModified":"2026-09-12T07:14:14.088Z","author":{"@type":"Person","name":"GhostZero"},"publisher":{"@type":"Organization","name":"GhostZero"}}</script>
 
 <script>
   (function () {
@@ -242,7 +242,7 @@
         </header>
         <div class="toc-content">
           
-            <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#Xysgh-EFT%E5%A4%A7%E4%BD%AC%E7%9A%84%E5%8A%A0%E9%80%9F%E6%96%B9%E6%A1%88"><span class="toc-text">Xysgh.EFT大佬的加速方案</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%B8%80%E6%AD%A5"><span class="toc-text">第一步</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E7%AC%AC%E4%BA%8C%E6%AD%A5"><span class="toc-text">第二步</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E6%89%AB%E6%8F%8F%E5%B7%A5%E5%85%B7%E6%8E%A8%E8%8D%90%EF%BC%9Abaobab"><span class="toc-text">扫描工具推荐：baobab</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E5%B8%B8%E8%A7%81%E5%8E%9F%E5%9B%A0%EF%BC%9A"><span class="toc-text">常见原因：</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-var-%E7%9B%AE%E5%BD%95%EF%BC%88%E7%A9%BA%E9%97%B4%E5%8D%A0%E7%94%A8%E5%A4%A7%E6%88%B7%EF%BC%89"><span class="toc-text">1. &#x2F;var 目录（空间占用大户）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#usr-%E7%9B%AE%E5%BD%95%EF%BC%88%E7%B3%BB%E7%BB%9F%E6%A0%B8%E5%BF%83%EF%BC%89"><span class="toc-text">&#x2F;usr 目录（系统核心）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-home-%E7%9B%AE%E5%BD%95%EF%BC%88%E7%94%A8%E6%88%B7%E6%95%B0%E6%8D%AE%EF%BC%89"><span class="toc-text">3. &#x2F;home 目录（用户数据）</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#opt-%E7%9B%AE%E5%BD%95%EF%BC%88%E5%8F%AF%E9%80%89%E5%BA%94%E7%94%A8%EF%BC%89"><span class="toc-text">&#x2F;opt 目录（可选应用）</span></a></li></ol></li></ol>
           
         </div>
       </section>
@@ -265,11 +265,11 @@
   
   <header class="article-header">
     
-    <h1>eix-sync超级同步</h1>
+    <h1>Gentoo磁盘清理</h1>
     <div class="meta-line meta-line--article">
       <span class="meta-date">
 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-calendar flatpaper-icon flatpaper-icon--lucide" aria-hidden="true"><use href="/icons.svg#flatpaper-icon-lucide-calendar"></use></svg>
-2026-08-04</span>
+2026-09-12</span>
       
     </div>
   </header>
@@ -278,10 +278,23 @@
 
 
   <div class="article-content">
-    <h3 id="Xysgh-EFT大佬的加速方案"><a href="#Xysgh-EFT大佬的加速方案" class="headerlink" title="Xysgh.EFT大佬的加速方案"></a>Xysgh.EFT大佬的加速方案</h3><h2 id="第一步"><a href="#第一步" class="headerlink" title="第一步"></a>第一步</h2><p>创建&#x2F;etc&#x2F;portage&#x2F;repos.conf文件夹<br>然后在里面创建gentoo.conf文件<br>把这个复制进去：</p>
-<figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line">[DEFAULT]</span><br><span class="line">main-repo = gentoo</span><br><span class="line"></span><br><span class="line">[gentoo]</span><br><span class="line">location = /var/db/repos/gentoo</span><br><span class="line">sync-type = git</span><br><span class="line">sync-uri = https://mirrors.ustc.edu.cn/gentoo.git</span><br><span class="line">auto-sync = yes</span><br><span class="line">sync-rsync-verify-jobs = 1</span><br><span class="line">sync-rsync-verify-metamanifest = yes</span><br><span class="line">sync-rsync-verify-max-age = 24</span><br><span class="line">sync-openpgp-key-path = /usr/share/openpgp-keys/gentoo-release.asc</span><br><span class="line">sync-openpgp-keyserver = hkps://keys.gentoo.org</span><br><span class="line">sync-openpgp-key-refresh-retry-count = 40</span><br><span class="line">sync-openpgp-key-refresh-retry-overall-timeout = 1200</span><br><span class="line">sync-openpgp-key-refresh-retry-delay-exp-base = 2</span><br><span class="line">sync-openpgp-key-refresh-retry-delay-max = 60</span><br><span class="line">sync-openpgp-key-refresh-retry-delay-mult = 4</span><br><span class="line">sync-webrsync-verify-signature = yes</span><br></pre></td></tr></table></figure>
-<h2 id="第二步"><a href="#第二步" class="headerlink" title="第二步"></a>第二步</h2><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">rm -r /var/db/repo/gentoo</span><br></pre></td></tr></table></figure>
-<p>然后再执行eix-sync</p>
+    <h1 id="Gentoo用久了磁盘爆满清理"><a href="#Gentoo用久了磁盘爆满清理" class="headerlink" title="Gentoo用久了磁盘爆满清理"></a>Gentoo用久了磁盘爆满清理</h1><h2 id="扫描工具推荐：baobab"><a href="#扫描工具推荐：baobab" class="headerlink" title="扫描工具推荐：baobab"></a>扫描工具推荐：baobab</h2><h2 id="常见原因："><a href="#常见原因：" class="headerlink" title="常见原因："></a>常见原因：</h2><h3 id="1-var-目录（空间占用大户）"><a href="#1-var-目录（空间占用大户）" class="headerlink" title="1. &#x2F;var 目录（空间占用大户）"></a>1. &#x2F;var 目录（空间占用大户）</h3><p>这是 Gentoo 系统中增长最快、最需要注意的目录，主要包含以下子目录：</p>
+<p>&#x2F;var&#x2F;db&#x2F;repos&#x2F;gentoo‌：存放 Portage 的 ebuild 仓库元数据。默认情况下约占用 ‌650 MiB‌，但随着时间推移和同步历史保留，可能会更大。</p>
+<p>&#x2F;var&#x2F;cache&#x2F;distfiles‌：‌这是最大的潜在空间杀手‌。当你编译软件时，Portage 会将下载的源代码包（tarballs, patches等）存储在这里。如果你经常更新系统或安装大量软件，这个目录可以轻松达到 ‌几十甚至上百 GB‌。</p>
+<p>建议：定期运行 eclean-dist –deep 清理不再被任何已安装或正在安装的 ebuild 引用的源文件。</p>
+<h4 id="eclean-命令包含在-app-portage-gentoolkit包中。如果未安装，系统会提示命令找不到。"><a href="#eclean-命令包含在-app-portage-gentoolkit包中。如果未安装，系统会提示命令找不到。" class="headerlink" title="eclean 命令包含在 app-portage&#x2F;gentoolkit包中。如果未安装，系统会提示命令找不到。"></a>eclean 命令包含在 app-portage&#x2F;gentoolkit包中。如果未安装，系统会提示命令找不到。</h4><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo emerge --ask app-portage/gentoolkit</span><br></pre></td></tr></table></figure>
+
+
+<p>&#x2F;var&#x2F;cache&#x2F;binpkgs‌：如果你启用了二进制包缓存（FEATURES&#x3D;”buildpkg”），编译好的二进制包会存这里，占用空间极大，但方便快速重装或回滚。</p>
+<p>&#x2F;var&#x2F;tmp&#x2F;portage‌：编译过程中的临时工作区。虽然编译完成后会自动清理，但在编译大型软件（如 Firefox, LibreOffice, Chromium）时，瞬时占用可达 ‌10-30 GB‌。如果编译中断，残留文件可能不会自动删除。</p>
+<p>优化：若内存充足（16GB+），可将此目录挂载为 tmpfs 以提升编译速度并减少 SSD 写入。</p>
+<p>&#x2F;var&#x2F;log‌：系统日志。如果未配置日志轮转（logrotate）或某些服务产生大量调试日志，这里也会迅速膨胀。</p>
+<h3 id="usr-目录（系统核心）"><a href="#usr-目录（系统核心）" class="headerlink" title="&#x2F;usr 目录（系统核心）"></a>&#x2F;usr 目录（系统核心）</h3><p>&#x2F;usr&#x2F;src‌：Linux 内核源代码。每个保留的内核版本都会占用 ‌1-2 GB‌ 左右的空间。如果你频繁编译新内核而不清理旧源码，这里会累积大量空间。</p>
+<p>&#x2F;usr&#x2F;lib 和 &#x2F;usr&#x2F;bin‌：存放已安装的应用程序、库文件和二进制文件。Gentoo 因为可以从源码定制 USE flags，有时会比二进制发行版更精简，但如果安装了大型桌面环境（如 KDE Plasma, GNOME）或开发工具链，这里轻松占用 ‌10-30 GB‌。</p>
+<p>&#x2F;usr&#x2F;local‌：手动编译安装的非 Portage 软件通常放在这里。</p>
+<h3 id="3-home-目录（用户数据）"><a href="#3-home-目录（用户数据）" class="headerlink" title="3. &#x2F;home 目录（用户数据）"></a>3. &#x2F;home 目录（用户数据）</h3><p>这与任何 Linux 发行版一样，存放用户的文档、下载、媒体文件等。</p>
+<p>注意‌：某些应用程序的配置缓存（如 .cache 目录，位于用户主目录下）也可能占用大量空间，例如浏览器缓存、缩略图缓存等。</p>
+<h3 id="opt-目录（可选应用）"><a href="#opt-目录（可选应用）" class="headerlink" title="&#x2F;opt 目录（可选应用）"></a>&#x2F;opt 目录（可选应用）</h3><p>某些第三方闭源软件或大型商业软件（如游戏服务器、专有 IDE）可能安装在此。对于普通桌面用户，这里通常较小；但对于特定用途（如游戏服务器），可能非常大。</p>
 
   </div>
 
@@ -311,18 +324,18 @@
 
   <nav class="article-actions">
     
-      <a class="article-action article-action--prev" href="/2026/09/12/Gentoo%E7%A3%81%E7%9B%98%E6%B8%85%E7%90%86/">
+      <span class="article-action article-action--prev is-disabled" aria-disabled="true">
         
 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-left flatpaper-icon flatpaper-icon--lucide" aria-hidden="true"><use href="/icons.svg#flatpaper-icon-lucide-arrow-left"></use></svg>
 
         <span class="action-label">上一篇</span>
-        <span class="action-title">Gentoo磁盘清理</span>
-      </a>
+        <span class="action-title">没有更早的文章了</span>
+      </span>
     
     
-      <a class="article-action article-action--next" href="/2026/07/31/Gentoo%E4%B8%8AQQ%E6%97%A0%E6%B3%95%E7%94%A8Fcitx%E4%B8%AD%E6%96%87%E8%BE%93%E5%85%A5%E6%B3%95%E8%A7%A3%E5%86%B3/">
+      <a class="article-action article-action--next" href="/2026/08/04/eix-sync%E8%B6%85%E7%BA%A7%E5%90%8C%E6%AD%A5/">
         <span class="action-label">下一篇</span>
-        <span class="action-title">Gentoo上QQ无法用Fcitx中文输入法解决</span>
+        <span class="action-title">eix-sync超级同步</span>
         
 <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right flatpaper-icon flatpaper-icon--lucide" aria-hidden="true"><use href="/icons.svg#flatpaper-icon-lucide-arrow-right"></use></svg>
 
